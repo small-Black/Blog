@@ -1,0 +1,332 @@
+body
+{
+    background: #f7f7f7;
+}
+/*头部*/
+
+.head
+{
+    position: relative;
+
+    width: 100%;
+}
+
+.slogan
+{
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.slogan img
+{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.top
+{
+    width: 100%;
+
+    background-image: url(../images/nav-index.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    background-size: cover;
+}
+.nav-index
+{
+    background-image: url(../images/nav-index.jpg);
+}
+.nav-article
+{
+    background-image: url(../images/nav-article.jpg);
+}
+.nav-works
+{
+    background-image: url(../images/nav-works.jpg);
+}
+.nav-essays
+{
+    background-image: url(../images/nav-essays.jpg);
+}
+.nav-share
+{
+    background-image: url(../images/nav-share.jpg);
+}
+.nav-message
+{
+    background-image: url(../images/nav-message.jpg);
+}
+
+
+.logo
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.top img
+{
+    max-width: 200px;
+    max-height: 60px;
+}
+
+.nav
+{
+    width: 100%;
+
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+}
+
+.nav ul
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav li
+{
+    line-height: 50px;
+
+    float: left;
+
+    width: 8%;
+    height: 50px;
+
+    text-align: center;
+}
+
+.nav li a
+{
+    display: block;
+
+    height: 100%;
+
+    color: #717171;
+}
+
+.nav li a:hover
+{
+    color: #fff;
+    background: red;
+}
+.nav li a.on{
+    color: #fff;
+    background: red;
+}
+.nav li .secondary
+{
+    display: none;
+
+    background: #c81717;
+}
+.nav li .secondary .sec-row
+{
+    display: block;
+
+    color: #fff;
+}
+.nav li .secondary .sec-row:hover
+{
+    color: #fff;
+    background: #4F0E05;
+}
+/*内容*/
+
+.main
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.recommended
+{
+    font-size: 1.1em;
+    font-weight: bold;
+
+    margin: 10px 0 -10px;
+    padding: 10px 2% 20px;
+
+    color: #f36;
+    background: #fff;
+    background: #fff url(../images/h_line.jpg) repeat-x 0 bottom;
+}
+
+.hot
+{
+    float: left;
+
+    width: 69%;
+    margin-right: 1%;
+}
+
+.hot-row
+{
+    position: relative;
+
+    margin-top: 10px;
+    padding: 10px 2%;
+
+    background: #fff;
+}
+
+.hot-row .thumb
+{
+    float: left;
+
+    width: 28%;
+    margin-right: 2%;
+}
+
+.hot-row .thumb img
+{
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+}
+
+.hot-row .article
+{
+    float: left;
+
+    width: 66%;
+}
+
+.hot-row .article h2 a
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.hot-row .article .des
+{
+    font-size: .9em;
+
+    margin-top: 2%;
+
+    color: #777;
+}
+
+.hot-row .article .state
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 66%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+
+    text-align: right;
+}
+
+.hot-row .article .state span
+{
+    font-size: .9em;
+
+    margin-right: 10px;
+
+    color: #999;
+}
+.hot-row .article .state .read
+{
+    font-size: .9em;
+
+    display: inline-block;
+
+    margin-right: 5%;
+    padding: 5px;
+
+    color: #fff;
+    background: #fd8a61;
+}
+
+.sidebar
+{
+    float: left;
+
+    width: 30%;
+    margin-top: 10px;
+
+    background: #fff;
+}
+
+.like
+{
+    font-size: 1.1em;
+    font-weight: bold;
+
+    padding: 10px 2% 20px;
+
+    color: #63c;
+    background: #fff;
+    background: #fff url(../images/h_line.jpg) repeat-x 0 bottom;
+}
+
+.list
+{
+    padding: 10px 2% 20px;
+}
+
+.list li
+{
+    padding: 5px 0;
+
+    border-bottom: 1px dashed #ccc;
+}
+
+.list li span
+{
+    line-height: 20px;
+
+    display: block;
+    float: left;
+
+    width: 6%;
+    max-width: 20px;
+    height: 20px;
+    margin-right: 2%;
+
+    text-align: center;
+
+    color: #fff;
+    background: #ff858e;
+}
+
+
+.list li a
+{
+    float: left;
+
+    width: 87%;
+
+    color: #303030;
+}
+.list li a:hover
+{
+    color: #fd8a61;
+}
+/*底部*/
+
+.footer
+{
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 0;
+
+    text-align: center;
+
+    border-top: 2px solid #e5e5e5;
+    background: #fff;
+}
+
+.footer p
+{
+    font-size: .8em;
+}
