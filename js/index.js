@@ -5,17 +5,18 @@
             var $this = $(this),
                 id = $this.attr("id"),
                 $secondary = $this.children(".secondary");
-            // $secondary.show("slow","linear");
-            $secondary.animate({
-                height: 'toggle',
-                opacity: 'toggle'
-            }, "slow");
+            $secondary.slideDown('500');
+            $this.children('.nav-title').addClass('on');
+           
+
         });
-        $nav.on("mouseout", " li", function() {
+        $nav.on("mouseleave", " li", function() {
             var $this = $(this),
                 id = $this.attr("id"),
-                $secondary = $this.children(".secondary");
+                $secondary = $(".secondary");
             $secondary.hide();
+            $this.children('.nav-title').removeClass('on');
         });
+
     });
 })(window, jQuery);
