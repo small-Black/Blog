@@ -1,6 +1,7 @@
 (function(window, $) {
     $(function() {
-        var $nav = $(".nav");
+        var $nav = $(".nav"),
+            $allsecondary = $(".secondary");
         $nav.on("mouseover", " li", function() {
             var $this = $(this),
                 id = $this.attr("id"),
@@ -12,9 +13,8 @@
         });
         $nav.on("mouseleave", " li", function() {
             var $this = $(this),
-                id = $this.attr("id"),
-                $secondary = $(".secondary");
-            $secondary.hide();
+                id = $this.attr("id");
+            $allsecondary.hide().stop(false,true);
             $this.children('.nav-title').removeClass('on');
         });
 
