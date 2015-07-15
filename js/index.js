@@ -1,22 +1,12 @@
 (function(window, $) {
     $(function() {
-        var $nav = $(".nav");
-        $nav.on("mouseover", " li", function() {
-            var $this = $(this),
-                id = $this.attr("id"),
-                $secondary = $this.children(".secondary");
-            $secondary.slideDown('500');
-            $this.children('.nav-title').addClass('on');
-           
-
+        // 轮播图
+        $.PicSlide({
+            selector: ".pic", //选择器
+            speed: 3000, //速度
+            dot: false, //焦点
+            autoplay: true, //是否自动播放
+            button: true //是否显示左右箭头
         });
-        $nav.on("mouseleave", " li", function() {
-            var $this = $(this),
-                id = $this.attr("id"),
-                $secondary = $(".secondary");
-            $secondary.hide();
-            $this.children('.nav-title').removeClass('on');
-        });
-
     });
 })(window, jQuery);

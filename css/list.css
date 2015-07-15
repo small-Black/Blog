@@ -1,0 +1,100 @@
+/*内容*/
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 5px;
+    
+}
+
+.map {
+    padding: 10px 2% 13px;
+    font-size: 0;
+    height:30px;
+    line-height: 30px;
+    background: #fff url(../images/h_line.jpg) repeat-x 0 bottom;
+}
+.map a,.map span{
+    display: inline-block;
+    font-size: 14px;
+    height:30px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-left: 1%;
+    color:#303030;
+}
+.map .home{
+    width:30px;
+    height:30px;
+    background:url(../images/home.png) no-repeat 0 0;
+}
+
+.list {
+    float: left;
+    width: 69%;
+    margin-right: 1%;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.list-row {
+    position: relative;
+    margin-top: 10px;
+    padding: 10px 2%;
+    background: #fff;
+    border-bottom:1px dashed #ccc;
+}
+
+.list-row .thumb {
+    float: left;
+    width: 28%;
+    margin-right: 2%;
+}
+
+.list-row .thumb img {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+}
+
+.list-row .article {
+    float: left;
+    width: 66%;
+}
+
+.list-row .article h2 a {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.list-row .article .des {
+    font-size: .9em;
+    margin-top: 2%;
+    color: #777;
+}
+
+.list-row .article .state {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 66%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.list-row .article .state span {
+    font-size: .9em;
+    margin-right: 10px;
+    color: #999;
+}
+
+.list-row .article .state .read {
+    font-size: .9em;
+    display: inline-block;
+    margin-right: 5%;
+    padding: 5px;
+    color: #fff;
+    background: #fd8a61;
+}
