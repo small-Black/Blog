@@ -98,3 +98,29 @@
     color: #fff;
     background: #fd8a61;
 }
+/*响应式样式*/
+@media screen and (max-width: 1100px) {
+    .list-row .article h2 {
+        font-size: 0.9em;
+    }
+    .list-row .article .des {
+        font-size: 0.8em;
+        margin-top: 2px;
+    }
+    .list-row .article .state {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }
+    .list {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .list-row .article .state {
+        display: none;
+    }
+}

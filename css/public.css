@@ -276,43 +276,7 @@ body {
     text-align: center;
     border-top: 2px solid #e5e5e5;
     background: #fff;
+     font-size: 0.8em;
 }
 
-.footer p {
-    font-size: .8em;
-}
-/*响应式样式*/
 
-@media screen and (max-width: 1100px) {
-    .hot-row .article h2 {
-        font-size: 0.9em;
-    }
-    .hot-row .article .des {
-        font-size: 0.8em;
-        margin-top: 2px;
-    }
-    .hot-row .article .state {
-        font-size: 0.8em;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .slogan img {
-        max-width: 300px;
-    }
-    .pic {
-        display: none;
-    }
-    .sidebar {
-        display: none;
-    }
-    .hot {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .hot-row .article .state {
-        display: none;
-    }
-}
